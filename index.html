@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>RoboRealm</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- القائمة -->
+  <nav class="navbar">
+    <ul class="nav-list">
+      <li><a href="#home">الرئيسية</a></li>
+      <li><a href="#about">من نحن</a></li>
+      <li><a href="#maps">ماباتنا</a></li>
+      <li><a href="#services">خدماتنا</a></li>
+      <li><a href="#request">طلب ماب</a></li>
+      <li><a href="#contact">تواصل معنا</a></li>
+    </ul>
+  </nav>
+
+  <!-- الرئيسية -->
+  <header id="home" class="hero">
+    <h1 class="brand">RoboRealm</h1>
+    <p class="tagline">ابنِ عالمك، عِش حلمك</p>
+    <button class="cta-button" onclick="window.open('https://www.roblox.com','_blank')">ادخل إلى Roblox الآن</button>
+  </header>
+
+  <!-- من نحن -->
+  <section id="about" class="section">
+    <h2>من نحن</h2>
+    <p>نحن شركة ألعاب متخصصة في ابتكار وتصميم مابات Roblox فريدة تمنح اللاعبين تجربة ممتعة ومليئة بالإبداع.</p>
+  </section>
+
+  <!-- ماباتنا -->
+  <section id="maps" class="section">
+    <h2>ماباتنا</h2>
+    <div class="gallery">
+      <figure class="card">
+        <img src="map1.jpg" alt="Map 1">
+        <figcaption>مغامرة النيوندوم</figcaption>
+        <a href="#" class="card-btn">العب الآن</a>
+      </figure>
+      <figure class="card">
+        <img src="map2.jpg" alt="Map 2">
+        <figcaption>عالم الروبوتات</figcaption>
+        <a href="#" class="card-btn">العب الآن</a>
+      </figure>
+    </div>
+  </section>
+
+  <!-- خدماتنا -->
+  <section id="services" class="section">
+    <h2>خدماتنا</h2>
+    <ul>
+      <li>تصميم مابات حسب الطلب</li>
+      <li>استشارات تطوير ألعاب Roblox</li>
+      <li>ورش تعليمية للمطورين</li>
+    </ul>
+  </section>
+
+  <!-- طلب ماب -->
+  <section id="request" class="section">
+    <h2>طلب ماب جديد</h2>
+    <form action="https://formspree.io/f/mldqlvap" method="POST">
+      <input type="text" name="name" placeholder="اسمك" required>
+      <input type="email" name="email" placeholder="بريدك الإلكتروني" required>
+      <textarea name="details" placeholder="صف الماب المطلوب" required></textarea>
+      <button type="submit">إرسال الطلب</button>
+    </form>
+  </section>
+
+  <!-- تواصل معنا -->
+  <section id="contact" class="section">
+    <h2>تواصل معنا</h2>
+    <form action="https://formspree.io/f/xovgylaz" method="POST">
+      <input type="text" name="name" placeholder="اسمك" required>
+      <input type="email" name="email" placeholder="بريدك الإلكتروني" required>
+      <textarea name="message" placeholder="رسالتك" required></textarea>
+      <button type="submit">إرسال عبر الإيميل</button>
+    </form>
+
+    <!-- روابط التواصل -->
+    <div class="social-links">
+      <a href="https://wa.me/201031656415" target="_blank" class="social-btn whatsapp">💬 واتساب</a>
+      <a href="https://discord.gg/87XHVbYB2" target="_blank" class="social-btn discord">🎮 ديسكورد</a>
+      <a href="https://www.tiktok.com/@roborealm85" target="_blank" class="social-btn tiktok">🎵 تيك توك</a>
+    </div>
+  </section>
+
+  <!-- الفوتر -->
+  <footer class="footer">
+    <p>&copy; 2025 RoboRealm</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
